@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+}
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
+.outer-container-right {
+  align-items: flex-end;
+}
+.outer-container-left {
+  align-items: flex-start;
+}
+.message-container {
+  background-color: #d6439d;
+  border-radius: 32px;
+  padding: 7px 15px;
+  display: inline-block;
+  margin: 0px 5px;
+}
+.message-sender {
+  font-size: 12px;
+  margin: 2px 15px;
+}
+.message-text {
+  color: #fff;
+  font-size: 16px;
+}
+.orange {
+  background-color: #d65a43;
+}

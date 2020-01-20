@@ -1,0 +1,30 @@
+.input-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.input {
+  flex: auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.send-button {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.send-button img {
+  width: 40px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
